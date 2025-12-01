@@ -60,7 +60,7 @@ for (const site of sites) {
 
         await web.pilihMetodePembayaran(site.data.MetodeBayar, site.data.PlatformBayar);
 
-        await page.waitForTimeout(5000);
+        await page.waitForTimeout(2000);
         
     })
 
